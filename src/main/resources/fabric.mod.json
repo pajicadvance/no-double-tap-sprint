@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "no-double-tap-sprint",
+  "version": "${version}",
+  "name": "Disable Double Tap to Sprint",
+  "description": "Disables double tapping the Forward key to start sprinting",
+  "authors": ["pajic"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "no-double-tap-sprint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
