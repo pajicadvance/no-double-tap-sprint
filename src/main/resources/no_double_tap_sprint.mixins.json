@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.pajic.no_double_tap_sprint.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "no_double_tap_sprint.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "LocalPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
